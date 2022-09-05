@@ -1,4 +1,4 @@
-# Setup
+# Project Configuration
 
 ## Pipenv
 
