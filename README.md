@@ -7,11 +7,11 @@ The project uses python 3.8.
 
 ## Python Source Code
 
-Stored within the `src` directory. When the container/application is executed, it looks for the `__main__.py` module within `src`. If this needs to be changed, it needs to also be reconfigured in `Dockerfile`.
+Stored within `src`, which is within the root directory. When the container/application is executed, it looks for the `__main__.py` module within `src`. If this needs to be changed, it needs to also be reconfigured in `Dockerfile`.
 
 ## Dockerfile
 
-Relies on the Pipfile and source code being located in the directories stated above. 
+Stored in the root directory. Relies on the Pipfile and source code being located in the directories stated above. 
 
 Build the Dockerfile locally into an image using:
 `docker build -t <desired_image_name> .`
